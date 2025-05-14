@@ -46,6 +46,9 @@ st.title("Automat ŁĄCZENIE DANYCH DO KALENDARZA")
 df_s = st.file_uploader(
     label = "Wrzuć plik RaportPromocyjny - stary"
 )
+df_n = st.file_uploader(
+    label = "Wrzuć plik RaportPromocyjny - dzisiejszy"
+)
 
 if df_s:
     df_s = pd.read_csv(df_s, sep=';')
