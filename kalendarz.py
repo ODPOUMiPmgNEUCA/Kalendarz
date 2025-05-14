@@ -51,7 +51,7 @@ df_n = st.file_uploader(
 )
 
 if df_s:
-    df_s = pd.read_csv(df_s, sep=';')
+    df_s = pd.read_excel(df_s)
     st.write(df_s.head())
 else:
     df_s = pd.DataFrame()  # pusty dataframe na start
