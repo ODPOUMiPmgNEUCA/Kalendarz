@@ -44,10 +44,10 @@ st.title("Automat ŁĄCZENIE DANYCH DO KALENDARZA")
 
 
 df_s = st.file_uploader(
-    label = "Wrzuć plik RaportPromocyjny - stary"
+    label = "Wrzuć plik RaportPromocyjny - stary (ZAWSZE W FORMACIE XLSX JUŻ PO PRZERÓBKACH!!!)"
 )
 df_n = st.file_uploader(
-    label = "Wrzuć plik RaportPromocyjny - dzisiejszy"
+    label = "Wrzuć plik RaportPromocyjny - dzisiejszy (ZAWSZE W FORMACIE CSV, ŻYWCEM POBRANY Z MAILA!!!"
 )
 
 if df_s:
