@@ -67,7 +67,7 @@ master_ids = [
 ]
 
 # Filtrowanie df_s
-df_s = df_s[df_s['Aaster ID'].isin(master_ids)]
+df_s = df_s[df_s['Master ID'].isin(master_ids)]
 
 
 # Pobranie dzisiejszej daty w formacie YYYY-MM-DD
